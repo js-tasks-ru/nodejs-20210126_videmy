@@ -8,7 +8,6 @@ setTimeout(() => {
     resolve('Robert');
   });
 
-
   promise
       .then((value) => {
         console.log(value);
